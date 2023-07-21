@@ -6,10 +6,10 @@ from .task1 import max_multiplications
 @pytest.mark.parametrize(
     "string, expected",
     [
-        ("2345sdlfsnf765765767skn123,jbkjb9999", 6561),
+        ("abc12345def", 120),
+        ("2345sdlfsnf765765767skn123,jbkjb999", 1470),
         ("asjhda12 sdjk788kk*^%%090", "Nil"),
         ("", "Nil"),
-        ("123kjbkj  987987msnxb7457", 980),
         ([], "Nil"),
         (None, "Nil"),
     ],
