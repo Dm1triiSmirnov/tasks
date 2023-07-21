@@ -60,6 +60,3 @@ def max_multiplications(string: str) -> int | str:
     result = find_max_multiplications(filtered_combinations)
 
     return result
-
-
-print(max_multiplications("2345sdlfsnf765765767skn123,jbkjb999"))
